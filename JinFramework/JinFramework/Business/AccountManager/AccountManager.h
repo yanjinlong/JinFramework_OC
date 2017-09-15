@@ -14,7 +14,16 @@
  */
 @interface AccountManager : NSObject
 
+/**
+ 是否登录
+
+ @return yes已登录；no未登录
+ */
 + (BOOL)isLogin;
+
+/**
+ 退出登录
+ */
 + (void)logout;
 
 + (NSString *)getAccessToken;
