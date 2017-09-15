@@ -109,7 +109,6 @@
     
     // 开始监听
     [afNetworkReachabilityManager startMonitoring];
-    
 }
 
 @end
