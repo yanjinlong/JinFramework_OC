@@ -1,0 +1,13 @@
+AccountManage:帐号管理类
+
+AppDelegateBusiness:AppDelegate的业务处理类
+
+DiskCache:缓存类
+
+NotificationCenter:部族欧巴的通知类中心，主要是含业务性质
+
+StatusHelper:帮助类（针对性业务的写法）
+
+UserSetting:用户设置类，主要是包含NSUserDefault的代码类
+
+WindowAlertChain:窗口弹出链

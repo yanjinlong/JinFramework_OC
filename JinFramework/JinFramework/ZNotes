@@ -1,0 +1,11 @@
+Business:业务代码
+
+Common:公共抽离代码
+
+External:第三方插件
+
+InterfaceGUI:界面（内有控制器和视图）
+
+Models:实体类
+
+Supporting Files:项目自带目录

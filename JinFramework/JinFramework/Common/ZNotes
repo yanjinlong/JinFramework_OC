@@ -1,0 +1,7 @@
+JFWController:框架的公共控制器
+
+JFWTool:存放JFWUI跟UI有关的提炼封装
+
+JFWView:框架的公共视图
+
+NetworkManager:网络相关的封装，内有接口API

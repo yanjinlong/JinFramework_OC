@@ -1,0 +1,23 @@
+AFNetworking:网络访问（https://github.com/AFNetworking/AFNetworking）
+
+Bugly:崩溃日志信息采集（https://bugly.qq.com/v2/index）
+
+FDFullscreenPopGesture:全屏的滑动pop控制器，禁用滑动返回：viewController.fd_interactivePopDisabled = YES;（https://github.com/forkingdog/FDFullscreenPopGesture）
+
+IQKeyBoardManager:键盘弹出与收回（https://github.com/hackiftekhar/IQKeyboardManager）
+
+JGActionSheet:从底部弹起的视图，可以自定义（https://github.com/JonasGessner/JGActionSheet）
+
+MJRefresh:下拉刷新，上拉加载（https://github.com/CoderMJLee/MJRefresh）
+
+RTRootNavigationController:使APP的每一个导航栏都伪装成为独立的导航栏（哪个页面不显示导航栏，则直接在哪个控制器的viewdidload里写上self.navigationController.navigationBarHidden = YES;即可）（https://github.com/rickytan/RTRootNavigationController）
+
+SDCycleScrollView:无限循环自动图片轮播器（https://github.com/gsdios/SDCycleScrollView）
+
+TCPlayer:腾讯视频播放器
+
+WSProgressHUD:刷新，弹出提示，错误的hud库（https://github.com/devSC/WSProgressHUD）
+
+XLImageViewer:查看图片大图并且可以放大缩小的效果的
+
+YYKit:包含图片库，JSON模型库，键盘库，缓存（https://github.com/ibireme/YYKit）
