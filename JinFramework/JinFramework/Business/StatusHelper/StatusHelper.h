@@ -136,13 +136,4 @@
  */
 + (UIImage *)getNewsSourceImageByType:(NSInteger)source;
 
-#pragma mark- 阅读、评论和收藏等数量处理
-
-/**
- *  阅读、评论和收藏等数量处理 超过一万 按 1.x亿 1.x万返回
- *
- *  @return 转换后阅读数字符串
- */
-+ (NSString *)getFoldCount:(NSInteger)count;
-
 @end

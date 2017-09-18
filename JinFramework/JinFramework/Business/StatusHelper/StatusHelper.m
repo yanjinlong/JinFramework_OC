@@ -495,22 +495,4 @@
     return image;
 }
 
-#pragma mark- 阅读、评论和收藏等数量处理
-
-/**
- *  阅读、评论和收藏等数量处理 超过一万 按 1.x亿 1.x万返回
- *
- *  @return 转换后阅读数字符串
- */
-+ (NSString *)getFoldCount:(NSInteger)count {
-    if (count < 1) {
-        return @"0";
-    }
-    
-    NSString *foldCountStr  = count > 100000000 ? [NSString stringWithFormat:@"%.1f亿", count / 100000000.0] : ( count > 10000 ? [NSString stringWithFormat:@"%.1f万", count / 10000.0] : [NSString stringWithFormat:@"%ld", (long)count]);
-    
-    return foldCountStr;
-    
-}
-
 @end
