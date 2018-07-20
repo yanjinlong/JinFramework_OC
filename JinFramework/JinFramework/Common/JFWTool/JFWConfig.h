@@ -20,7 +20,7 @@
 /**
  状态栏高度
  */
-#define UI_STATUSBAR_HEIGHT             20.0
+#define UI_STATUSBAR_HEIGHT             [UIApplication sharedApplication].statusBarFrame.size.height
 /**
  导航栏高度
  */
