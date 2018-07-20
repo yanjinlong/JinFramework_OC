@@ -54,6 +54,15 @@
  */
 @interface JFWViewController : UIViewController<NetworkDelegate, JFWViewControllerInterface, JFWVCDescriptionInterface>
 
+#pragma mark - 设置导航栏样式
+
+/**
+ 设置nav的样式
+ 
+ @param nav nav控制器
+ */
++ (void)setNavStyle:(UINavigationController *)nav;
+
 #pragma mark - 基类代码，供子类继承使用
 
 /**
