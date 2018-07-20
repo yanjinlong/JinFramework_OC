@@ -79,7 +79,7 @@
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
     
-    [AppDelegateBusiness setNavStyle:self.navigationController];
+    [JFWViewController setNavStyle:self.navigationController];
 }
 
 - (void)viewWillDisappear:(BOOL)animated {
