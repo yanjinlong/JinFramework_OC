@@ -6,7 +6,7 @@
 //  Copyright © 2017年  Tribetech. All rights reserved.
 //
 
-#import "WindowAlertAbstracttHandler.h"
+#import "WindowAlertAbstractHandler.h"
 #import <UIKit/UIKit.h>
 
 #define SHOWAD_TIME         3
@@ -15,7 +15,7 @@
 /**
  广告处理者
  */
-@interface AdvertPageHandler : WindowAlertAbstracttHandler
+@interface AdvertPageHandler : WindowAlertAbstractHandler
 
 /**
  启动带图片效果的

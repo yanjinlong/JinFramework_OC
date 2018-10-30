@@ -6,11 +6,11 @@
 //  Copyright © 2017年  Tribetech. All rights reserved.
 //
 
-#import "WindowAlertAbstracttHandler.h"
+#import "WindowAlertAbstractHandler.h"
 
 /**
- 首页引导处理者
+ 首页引导蒙版处理者
  */
-@interface HomePageGuideHandler : WindowAlertAbstracttHandler
+@interface HomePageGuideHandler : WindowAlertAbstractHandler
 
 @end

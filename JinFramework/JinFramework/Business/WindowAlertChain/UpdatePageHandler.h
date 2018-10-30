@@ -6,11 +6,11 @@
 //  Copyright © 2017年  Tribetech. All rights reserved.
 //
 
-#import "WindowAlertAbstracttHandler.h"
+#import "WindowAlertAbstractHandler.h"
 
 /**
  升级提示处理者
  */
-@interface UpdatePageHandler : WindowAlertAbstracttHandler
+@interface UpdatePageHandler : WindowAlertAbstractHandler
 
 @end

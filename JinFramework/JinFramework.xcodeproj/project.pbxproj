@@ -205,8 +205,7 @@
 		3C2D87EC1F1F5A530005111F /* HomePageGuideHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C2D87D91F1F5A530005111F /* HomePageGuideHandler.m */; };
 		3C2D87ED1F1F5A530005111F /* NewFeturePageHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C2D87DB1F1F5A530005111F /* NewFeturePageHandler.m */; };
 		3C2D87EE1F1F5A530005111F /* UpdatePageHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C2D87DD1F1F5A530005111F /* UpdatePageHandler.m */; };
-		3C2D87EF1F1F5A530005111F /* WindowAlertAbstracttHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C2D87DF1F1F5A530005111F /* WindowAlertAbstracttHandler.m */; };
-		3C2D87F01F1F5A530005111F /* WindowAlertHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C2D87E11F1F5A530005111F /* WindowAlertHandler.m */; };
+		3C2D87EF1F1F5A530005111F /* WindowAlertAbstractHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C2D87DF1F1F5A530005111F /* WindowAlertAbstractHandler.m */; };
 		3C2D87F71F1F63240005111F /* PageModelBasic.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C2D87F41F1F63240005111F /* PageModelBasic.m */; };
 		3C2D87F81F1F63240005111F /* TableItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C2D87F61F1F63240005111F /* TableItem.m */; };
 		3C2D87FA1F1F63340005111F /* ZNotes in Resources */ = {isa = PBXBuildFile; fileRef = 3C2D87F91F1F63340005111F /* ZNotes */; };
@@ -214,6 +213,10 @@
 		3CDDC7BB1F1F65D100882CAB /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CDDC7BA1F1F65D100882CAB /* libz.tbd */; };
 		3CDDC7C11F1F682A00882CAB /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CDDC7BF1F1F682A00882CAB /* TestViewController.m */; };
 		3CDDC7C21F1F682A00882CAB /* TestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CDDC7C01F1F682A00882CAB /* TestViewController.xib */; };
+		4D9ADBC62187E6D600EAE90B /* WindowAlertAbstractView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D9ADBC52187E6D600EAE90B /* WindowAlertAbstractView.m */; };
+		4D9ADBC92187F9E200EAE90B /* HomePageGuideView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D9ADBC82187F9E200EAE90B /* HomePageGuideView.m */; };
+		4D9ADBCC2187F9F300EAE90B /* UpdatePageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D9ADBCB2187F9F300EAE90B /* UpdatePageView.m */; };
+		4D9ADBCF2187FA0E00EAE90B /* NewFeturePageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D9ADBCE2187FA0E00EAE90B /* NewFeturePageView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -617,10 +620,8 @@
 		3C2D87DB1F1F5A530005111F /* NewFeturePageHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewFeturePageHandler.m; sourceTree = "<group>"; };
 		3C2D87DC1F1F5A530005111F /* UpdatePageHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UpdatePageHandler.h; sourceTree = "<group>"; };
 		3C2D87DD1F1F5A530005111F /* UpdatePageHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UpdatePageHandler.m; sourceTree = "<group>"; };
-		3C2D87DE1F1F5A530005111F /* WindowAlertAbstracttHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WindowAlertAbstracttHandler.h; sourceTree = "<group>"; };
-		3C2D87DF1F1F5A530005111F /* WindowAlertAbstracttHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WindowAlertAbstracttHandler.m; sourceTree = "<group>"; };
-		3C2D87E01F1F5A530005111F /* WindowAlertHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WindowAlertHandler.h; sourceTree = "<group>"; };
-		3C2D87E11F1F5A530005111F /* WindowAlertHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WindowAlertHandler.m; sourceTree = "<group>"; };
+		3C2D87DE1F1F5A530005111F /* WindowAlertAbstractHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WindowAlertAbstractHandler.h; sourceTree = "<group>"; };
+		3C2D87DF1F1F5A530005111F /* WindowAlertAbstractHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WindowAlertAbstractHandler.m; sourceTree = "<group>"; };
 		3C2D87E21F1F5A530005111F /* ZNotes */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ZNotes; sourceTree = "<group>"; };
 		3C2D87F31F1F63240005111F /* PageModelBasic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageModelBasic.h; sourceTree = "<group>"; };
 		3C2D87F41F1F63240005111F /* PageModelBasic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageModelBasic.m; sourceTree = "<group>"; };
@@ -632,6 +633,14 @@
 		3CDDC7BE1F1F682A00882CAB /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
 		3CDDC7BF1F1F682A00882CAB /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 		3CDDC7C01F1F682A00882CAB /* TestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestViewController.xib; sourceTree = "<group>"; };
+		4D9ADBC42187E6D600EAE90B /* WindowAlertAbstractView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WindowAlertAbstractView.h; sourceTree = "<group>"; };
+		4D9ADBC52187E6D600EAE90B /* WindowAlertAbstractView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WindowAlertAbstractView.m; sourceTree = "<group>"; };
+		4D9ADBC72187F9E200EAE90B /* HomePageGuideView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomePageGuideView.h; sourceTree = "<group>"; };
+		4D9ADBC82187F9E200EAE90B /* HomePageGuideView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomePageGuideView.m; sourceTree = "<group>"; };
+		4D9ADBCA2187F9F300EAE90B /* UpdatePageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UpdatePageView.h; sourceTree = "<group>"; };
+		4D9ADBCB2187F9F300EAE90B /* UpdatePageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UpdatePageView.m; sourceTree = "<group>"; };
+		4D9ADBCD2187FA0E00EAE90B /* NewFeturePageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewFeturePageView.h; sourceTree = "<group>"; };
+		4D9ADBCE2187FA0E00EAE90B /* NewFeturePageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewFeturePageView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -691,6 +700,7 @@
 				3C2D87CF1F1F5A530005111F /* StatusHelper */,
 				3C2D87D21F1F5A530005111F /* UserSetting */,
 				3C2D87D51F1F5A530005111F /* WindowAlertChain */,
+				4D9ADBC32187E69E00EAE90B /* WindowAlertView */,
 				3C2D87E21F1F5A530005111F /* ZNotes */,
 			);
 			path = Business;
@@ -1571,10 +1581,8 @@
 				3C2D87DB1F1F5A530005111F /* NewFeturePageHandler.m */,
 				3C2D87DC1F1F5A530005111F /* UpdatePageHandler.h */,
 				3C2D87DD1F1F5A530005111F /* UpdatePageHandler.m */,
-				3C2D87DE1F1F5A530005111F /* WindowAlertAbstracttHandler.h */,
-				3C2D87DF1F1F5A530005111F /* WindowAlertAbstracttHandler.m */,
-				3C2D87E01F1F5A530005111F /* WindowAlertHandler.h */,
-				3C2D87E11F1F5A530005111F /* WindowAlertHandler.m */,
+				3C2D87DE1F1F5A530005111F /* WindowAlertAbstractHandler.h */,
+				3C2D87DF1F1F5A530005111F /* WindowAlertAbstractHandler.m */,
 			);
 			path = WindowAlertChain;
 			sourceTree = "<group>";
@@ -1597,6 +1605,21 @@
 				3CDDC7B81F1F65BE00882CAB /* libsqlite3.tbd */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4D9ADBC32187E69E00EAE90B /* WindowAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				4D9ADBC42187E6D600EAE90B /* WindowAlertAbstractView.h */,
+				4D9ADBC52187E6D600EAE90B /* WindowAlertAbstractView.m */,
+				4D9ADBC72187F9E200EAE90B /* HomePageGuideView.h */,
+				4D9ADBC82187F9E200EAE90B /* HomePageGuideView.m */,
+				4D9ADBCA2187F9F300EAE90B /* UpdatePageView.h */,
+				4D9ADBCB2187F9F300EAE90B /* UpdatePageView.m */,
+				4D9ADBCD2187FA0E00EAE90B /* NewFeturePageView.h */,
+				4D9ADBCE2187FA0E00EAE90B /* NewFeturePageView.m */,
+			);
+			path = WindowAlertView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1625,7 +1648,7 @@
 		3C2D85271F1F51F90005111F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = Jin;
 				TargetAttributes = {
 					3C2D852E1F1F51F90005111F = {
@@ -1684,6 +1707,7 @@
 			files = (
 				3C2D86F01F1F54D30005111F /* MJRefreshComponent.m in Sources */,
 				3C2D87571F1F54D30005111F /* YYTextMagnifier.m in Sources */,
+				4D9ADBCF2187FA0E00EAE90B /* NewFeturePageView.m in Sources */,
 				3C2D87A21F1F59070005111F /* JFWUI.m in Sources */,
 				3C2D873E1F1F54D30005111F /* YYDiskCache.m in Sources */,
 				3C2D87421F1F54D30005111F /* CALayer+YYWebImage.m in Sources */,
@@ -1713,7 +1737,7 @@
 				3C2D86F51F1F54D30005111F /* MJRefreshAutoStateFooter.m in Sources */,
 				3C2D87551F1F54D30005111F /* YYTextLayout.m in Sources */,
 				3C2D87A71F1F59070005111F /* JFWNetworkManager.m in Sources */,
-				3C2D87EF1F1F5A530005111F /* WindowAlertAbstracttHandler.m in Sources */,
+				3C2D87EF1F1F5A530005111F /* WindowAlertAbstractHandler.m in Sources */,
 				3C2D87141F1F54D30005111F /* TCCloudPlayerView.m in Sources */,
 				3C2D87531F1F54D30005111F /* YYTextInput.m in Sources */,
 				3C2D87E81F1F5A530005111F /* NotificationCenter.m in Sources */,
@@ -1767,6 +1791,7 @@
 				3C2D87201F1F54D30005111F /* NSBundle+YYAdd.m in Sources */,
 				3C2D871F1F1F54D30005111F /* NSArray+YYAdd.m in Sources */,
 				3C2D87221F1F54D30005111F /* NSDate+YYAdd.m in Sources */,
+				4D9ADBC92187F9E200EAE90B /* HomePageGuideView.m in Sources */,
 				3C2D87A31F1F59070005111F /* JFWUtility.mm in Sources */,
 				3C2D87321F1F54D30005111F /* UIColor+YYAdd.m in Sources */,
 				3C2D871E1F1F54D30005111F /* XLImageViewerTooBar.m in Sources */,
@@ -1797,7 +1822,6 @@
 				3C2D855C1F1F53740005111F /* main.m in Sources */,
 				3C2D872C1F1F54D30005111F /* NSTimer+YYAdd.m in Sources */,
 				3C2D87651F1F54D30005111F /* YYDispatchQueuePool.m in Sources */,
-				3C2D87F01F1F5A530005111F /* WindowAlertHandler.m in Sources */,
 				3C2D87641F1F54D30005111F /* YYAsyncLayer.m in Sources */,
 				3C2D87481F1F54D30005111F /* YYImage.m in Sources */,
 				3C2D86FD1F1F54D30005111F /* MJRefreshConst.m in Sources */,
@@ -1810,6 +1834,7 @@
 				3C2D874C1F1F54D30005111F /* YYWebImageManager.m in Sources */,
 				3C2D87BA1F1F5A1B0005111F /* FBShimmeringView.m in Sources */,
 				3C2D86CE1F1F54D30005111F /* AFNetworkReachabilityManager.m in Sources */,
+				4D9ADBCC2187F9F300EAE90B /* UpdatePageView.m in Sources */,
 				3C2D86F71F1F54D30005111F /* MJRefreshBackNormalFooter.m in Sources */,
 				3C2D86F91F1F54D30005111F /* MJRefreshGifHeader.m in Sources */,
 				3C2D873A1F1F54D30005111F /* UITableView+YYAdd.m in Sources */,
@@ -1846,6 +1871,7 @@
 				3C2D87331F1F54D30005111F /* UIControl+YYAdd.m in Sources */,
 				3C2D874F1F1F54D30005111F /* YYClassInfo.m in Sources */,
 				3C2D86DF1F1F54D30005111F /* IQUIScrollView+Additions.m in Sources */,
+				4D9ADBC62187E6D600EAE90B /* WindowAlertAbstractView.m in Sources */,
 				3C2D87F71F1F63240005111F /* PageModelBasic.m in Sources */,
 				3C2D86F21F1F54D30005111F /* MJRefreshHeader.m in Sources */,
 				3C2D87A01F1F59070005111F /* JFWViewController.m in Sources */,
@@ -1886,15 +1912,23 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -1934,15 +1968,23 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -1971,6 +2013,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 67625TYSQQ;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/JinFramework/External/Bugly",
@@ -1990,6 +2033,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 67625TYSQQ;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/JinFramework/External/Bugly",

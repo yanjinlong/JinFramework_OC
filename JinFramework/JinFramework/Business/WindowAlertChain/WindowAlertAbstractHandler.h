@@ -1,5 +1,5 @@
 //
-//  WindowAlertAbstracttHandler.h
+//  WindowAlertAbstractHandler.h
 //  JinFramework
 //
 //  Created by denghaishu on 2017/6/24.
@@ -11,9 +11,9 @@
 /**
  责任链抽象处理者类
  */
-@interface WindowAlertAbstracttHandler : NSObject
+@interface WindowAlertAbstractHandler : NSObject
 
-@property (nonatomic, strong) WindowAlertAbstracttHandler *nextHandler;
+@property (nonatomic, strong) WindowAlertAbstractHandler *nextHandler;
 
 - (void)handlerOwnTask;
 

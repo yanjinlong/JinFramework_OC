@@ -7,6 +7,7 @@
 //
 
 #import "UpdatePageHandler.h"
+#import "UpdatePageView.h"
 
 /**
  升级提示处理者
@@ -16,7 +17,9 @@
 // 重写父类的处理方法
 - (void)handlerOwnTask {
     if ([self isExistUpdatePage]) {
-        
+        UpdatePageView *view = [UpdatePageView new];
+        view.alertChainHandler = self;
+        [view show];
     }
     else {
         [self.nextHandler handlerOwnTask];
@@ -26,7 +29,7 @@
 }
 
 - (BOOL)isExistUpdatePage {
-    return NO;
+    return YES;
 }
 
 @end
